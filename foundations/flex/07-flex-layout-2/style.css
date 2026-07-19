@@ -27,3 +27,63 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* ANSWER */
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.container-content {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.sidebar {
+  padding: 16px;
+}
+
+.container-card {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 20px;
+  /* max-width: 100vh; */
+  padding: 48px;
+}
+
+.card {
+  /* display: flex; */
+  width: 300px;
+  height: auto;
+  padding: 10px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
